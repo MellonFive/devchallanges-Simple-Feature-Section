@@ -1,0 +1,26 @@
+body {
+  background: var(--black) url(/src/images/Background_image.svg);
+  font-family: "Outfit", sans-serif;
+  color: var(--light-gray); /* Remover essa propriedade quando acabar o projeto */
+}
+
+main {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.container .company {
+  text-align: center;
+  margin: 5rem auto 0;
+}
+
+.container .company .title {
+  color: var(--light-gray);
+  width: 35rem;
+  margin: auto;
+}
+
+.container .company .description {
+  margin-top: 3rem;
+  color: var(--gray);
+}
