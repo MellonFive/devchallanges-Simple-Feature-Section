@@ -11,7 +11,7 @@ main {
 
 .container .company {
   text-align: center;
-  margin: 3rem auto 0;
+  margin: 2rem auto 0;
 }
 
 .container .company .title {
@@ -20,7 +20,60 @@ main {
   margin: auto;
 }
 
-.container .company .description {
-  margin-top: 2rem;
+.container .company .description-company {
+  margin-top: 1.5rem;
   color: var(--gray);
+}
+
+.container .cards {
+  margin: 2rem auto 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container .cards .card {
+  border-radius: 1.5rem;
+  padding: 2rem;
+  width: 30rem;
+  background-color: var(--light-black);
+}
+
+.container .cards .card .emoji {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  font-size: 2rem;
+  border-radius: 100%;
+}
+
+.container .cards .card .emoji.-emoji-one {
+  background-color: var(--beige);
+  border: none;
+}
+
+.container .cards .card .emoji.-emoji-two {
+  background-color: var(--light-aqua);
+  border: none;
+}
+
+.container .cards .card .emoji.-emoji-three {
+  background-color: var(--beige);
+}
+
+.container .cards .card h3 {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.container .cards .card p {
+  margin-top: 1.5rem;
+  color: var(--gray);
+}
+
+.container .cards .card img  {
+  margin-top: 2rem;
+  border-radius: inherit;
+  width: 100%;
 }
