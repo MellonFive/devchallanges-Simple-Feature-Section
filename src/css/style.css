@@ -17,16 +17,16 @@ main {
 .container .company .title {
   color: var(--light-gray);
   width: 35rem;
-  margin: auto;
+  margin: 2.5rem auto 0;
 }
 
 .container .company .description-company {
-  margin-top: 1.5rem;
+  margin-top: 1.25rem;
   color: var(--gray);
 }
 
 .container .cards {
-  margin: 2rem auto 0;
+  margin: 2.5rem auto 0;
   display: flex;
   justify-content: space-around;
 }
@@ -62,18 +62,18 @@ main {
   background-color: var(--beige);
 }
 
-.container .cards .card h3 {
+.container .cards .card .title-card {
   margin-top: 2rem;
   font-size: 2rem;
 }
 
-.container .cards .card p {
-  margin-top: 1.5rem;
+.container .cards .card .description-card {
+  margin-top: 1rem;
   color: var(--gray);
 }
 
 .container .cards .card img  {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   border-radius: inherit;
   width: 100%;
 }
