@@ -17,16 +17,15 @@ main {
 .container .company .title {
   color: var(--light-gray);
   width: 35rem;
-  margin: 2.5rem auto 0;
+  margin: 3rem auto 2rem;
 }
 
 .container .company .description-company {
-  margin-top: 1.25rem;
   color: var(--gray);
 }
 
 .container .cards {
-  margin: 2.5rem auto 0;
+  margin: 5rem auto 0;
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
