@@ -28,6 +28,8 @@ main {
 .container .cards {
   margin: 2.5rem auto 0;
   display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
   justify-content: space-around;
 }
 
