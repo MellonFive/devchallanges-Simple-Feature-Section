@@ -7,7 +7,7 @@
 <br>
 
 <p align="center">
-  <img alt="Devchallanges-Simple-Feature-Section" src="./.github/preview.png" width="100%">
+  <img alt="Devchallanges-Simple-Feature-Section" src="./.github/Preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
