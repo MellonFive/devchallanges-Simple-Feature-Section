@@ -16,7 +16,8 @@ main {
 
 .container .company .title {
   color: var(--light-gray);
-  width: 35rem;
+  width: 40rem;
+  font-size: 4rem;
   margin: 3rem auto 2rem;
 }
 
