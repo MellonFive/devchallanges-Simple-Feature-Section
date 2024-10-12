@@ -19,3 +19,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 Projeto para entrar nos conceitos de Front-End e desenvolvimento web.
+
+## Observação
+
+Primeiro projeto da devchallange que faço
