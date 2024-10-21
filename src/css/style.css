@@ -1,7 +1,6 @@
 body {
   background: var(--black) url(/src/images/Background_image.svg);
   font-family: "Outfit", sans-serif;
-  color: var(--light-gray); /* Remover essa propriedade quando acabar o projeto */
 }
 
 main {
@@ -11,14 +10,14 @@ main {
 
 .container .company {
   text-align: center;
-  margin: 2rem auto 0;
+  margin: 7rem auto 0;
 }
 
 .container .company .title {
   color: var(--light-gray);
-  width: 35rem;
-  font-size: 3rem;
-  margin: 3rem auto 2rem;
+  width: 60rem;
+  margin: 5rem auto 0;
+  font-size: 5rem;
 }
 
 .container .company .title .first-s, 
@@ -28,14 +27,16 @@ main {
 
 .container .company .description-company {
   color: var(--gray);
+  margin-top: 3rem;
+  font-size: 2rem;
 }
 
 .container .cards {
-  margin: 3rem auto 0;
+  margin: 5rem auto 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: space-around;
+  justify-content: space-between;
+  max-width: 1000px;
 }
 
 .container .cards .card {
@@ -72,6 +73,7 @@ main {
 .container .cards .card .title-card {
   margin-top: 2rem;
   font-size: 2rem;
+  color: var(--light-gray);
 }
 
 .container .cards .card .description-card {
