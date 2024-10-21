@@ -1,1 +1,1 @@
-https://devchallenges.io/editor/solution/35067
+https://devchallenges.io/solution/35067
