@@ -30,3 +30,9 @@
         width: 50%;
     }
 }
+
+@media (max-width: 375px) {
+    .container .cards {
+        width: 100%;
+    }
+}
