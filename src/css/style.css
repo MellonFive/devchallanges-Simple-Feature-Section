@@ -28,16 +28,16 @@ main {
 .container .company .description-company {
   color: var(--gray);
   margin-top: 3rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .container .cards {
-  margin: 5rem auto 0;
+  margin: 5rem auto 5rem;
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
   justify-content: space-between;
-  max-width: 1000px;
+  max-width: 1280px;
 }
 
 .container .cards .card {
@@ -82,7 +82,7 @@ main {
   color: var(--gray);
 }
 
-.container .cards .card img  {
+.container .cards .card img {
   margin-top: 1.5rem;
   border-radius: inherit;
   width: 100%;
