@@ -32,6 +32,15 @@
 }
 
 @media (max-width: 375px) {
+    .container .company .title {
+        font-size: 3rem;
+        width: 30rem;
+    }
+
+    .container .company .description-company {
+        font-size: 1.5rem;
+    }
+
     .container .cards {
         width: 100%;
     }
