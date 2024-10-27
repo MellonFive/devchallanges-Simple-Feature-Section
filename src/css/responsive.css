@@ -16,7 +16,7 @@
     }
 }
 
-@media (max-width: 640px) {
+@media (min-width: 639px) and (max-width: 640px) {
     .container .company .title {
         font-size: 3rem;
         width: 30rem;
